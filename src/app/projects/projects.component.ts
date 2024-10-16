@@ -47,6 +47,16 @@ export class ProjectsComponent {
       image:"assets/projects/websport/websport1.png",
     },
     {
+      titre:"E-Sport Mobile",
+      description:"Les utilisateurs de cette application mobile peuvent consulter les matchs à venir, "+
+      "acheter des billets en ligne et suivre les actualités sportives. Ils ont également accès à des billets "+
+      "électroniques sécurisés, vérifiables via un scan. Les administrateurs gèrent l'organisation des événements "+
+      "sportifs, les sanctions des joueurs, et valident les équipes formées par les chefs d'équipe. Les community "+
+      "managers tiennent les utilisateurs informés des dernières nouvelles sportives, tandis que les trésoriers "+
+      "assurent la gestion des transactions et des finances liées aux événements.",
+      image:"assets/projects/mobilesport/mobilesport1.png",
+    },
+    {
       titre:"titre1",
       description:"Cette application mobile attribue des tickets électroniques aux utilisateurs après un paiement "+
       "ou un parrainage. Chaque ticket, enregistré dans l'application, peut être scanné pour vérifier son authenticité. "+
@@ -60,16 +70,7 @@ export class ProjectsComponent {
       "météorologiques au Sénégal, offrant ainsi aux utilisateurs des informations précises sur la météo locale.",
       image:"assets/projects/meteo/meteo6.png",
     },
-    {
-      titre:"E-Sport Mobile",
-      description:"Les utilisateurs de cette application mobile peuvent consulter les matchs à venir, "+
-      "acheter des billets en ligne et suivre les actualités sportives. Ils ont également accès à des billets "+
-      "électroniques sécurisés, vérifiables via un scan. Les administrateurs gèrent l'organisation des événements "+
-      "sportifs, les sanctions des joueurs, et valident les équipes formées par les chefs d'équipe. Les community "+
-      "managers tiennent les utilisateurs informés des dernières nouvelles sportives, tandis que les trésoriers "+
-      "assurent la gestion des transactions et des finances liées aux événements.",
-      image:"assets/projects/mobilesport/mobilesport1.png",
-    }
+
   ]
 
 }
