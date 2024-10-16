@@ -1,0 +1,30 @@
+.table-info th {
+    color: white; 
+    font-size: large; 
+    font-weight: bold; 
+
+  }
+  
+  .table-info td {
+    font-size: 1rem; 
+    padding-left: 10px; 
+    color: #999999;
+  }
+  
+  .table-info {
+    border-collapse: collapse; 
+    animation: rotateIn 0.6s ease-in-out forwards; 
+    background-color: transparent;
+    padding: 3%;
+  }
+  
+  .table-info th, .table-info td {
+    padding: 8px; 
+  }
+  
+  .presentation h1{
+    margin-bottom: 5%;
+    color: white; 
+    font-size: xxx-large
+  }
+  

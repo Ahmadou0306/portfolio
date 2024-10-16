@@ -1,0 +1,21 @@
+
+<div class="container education text-center justify-content-center">
+    <h1>Formations et Certifications</h1>
+    <ul>
+        <li *ngFor="let formation of formations" [ngStyle]="{'--accent-color': formation.couleur}">
+            <div class="date">{{ formation.date }}</div>
+            <div class="title">{{ formation.titre }}</div>
+            <div class="descr">{{ formation.desc }}</div>
+        </li>
+    </ul>
+    <ul>
+        <li *ngFor="let certif of certifs" [ngStyle]="{'--accent-color': certif.couleur}">
+            <div class="date">{{ certif.date }}</div>
+            <div class="title">{{ certif.titre }}</div>
+        </li>
+    </ul>    
+</div>
+
+
+
+

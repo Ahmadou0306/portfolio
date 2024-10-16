@@ -1,0 +1,79 @@
+.contact {
+    padding: 50px 0;
+    font-size: x-large;
+    
+}
+.contact h2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: x-large;
+}
+.contact h1{
+    color: white;
+    font-size: xxx-large;
+}
+.contact h1 span{
+    color: #ffc107;
+}
+
+.reseau {
+    margin-top: 20px;
+}
+
+.bubble-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0 15px; 
+}
+
+.bubble-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s; 
+}
+
+.bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px; 
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s;
+}
+.bubble:hover {
+    background-color: #e0e0e0; 
+}
+
+.bubble img {
+    width: 30px;
+    height: auto;
+}
+
+.info {
+    text-align: center; 
+    font-weight: bold; 
+    color: white;
+
+}
+
+.bubble-link:hover {
+    transform: scale(1.05); 
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}

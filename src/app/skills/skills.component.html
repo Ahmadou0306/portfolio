@@ -1,0 +1,71 @@
+<div class="container contact">
+    <h1 class="text-center">Compétence</h1>
+    <div class="d-flex justify-content-center">
+        <button 
+        class="btn mx-2" 
+        [ngClass]="{'btn-primary skill-active': isDevActive, 'btn-secondary': !isDevActive}"
+        (click)="setDevActive(true)">
+        Développeur FullStack
+      </button>
+      
+      <button 
+        class="btn mx-2" 
+        [ngClass]="{'btn-primary skill-active': !isDevActive, 'btn-secondary': isDevActive}"
+        (click)="setDevActive(false)">
+        IA et Big Data
+      </button>
+    </div>
+
+    <!-- Section Développeur FullStack -->
+    <div class="row justify-content-center card-skill" *ngIf="isDevActive">
+        <!-- 1ère colonne -->
+        <div class="col-md-6">
+            <div *ngFor="let skill of devSkills1">
+                <h3 class="progress-title">{{ skill.titre }}</h3>
+                <div class="progress">
+                    <div class="progress-bar" [ngStyle]="{'width': skill.progress + '%', 'background': skill.colors || '#007bff'}">
+                        <div class="progress-value">{{ skill.progress }}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2ème colonne -->
+        <div class="col-md-6">
+            <div *ngFor="let skill of devSkills2">
+                <h3 class="progress-title">{{ skill.titre }}</h3>
+                <div class="progress">
+                    <div class="progress-bar" [ngStyle]="{'width': skill.progress + '%', 'background': skill.colors || '#007bff'}">
+                        <div class="progress-value">{{ skill.progress }}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section IA et Big Data -->
+    <div class="row justify-content-center card-skill" *ngIf="!isDevActive">
+        <!-- 1ère colonne -->
+        <div class="col-md-6">
+            <div *ngFor="let skill of dataSkills1">
+                <h3 class="progress-title">{{ skill.titre }}</h3>
+                <div class="progress">
+                    <div class="progress-bar" [ngStyle]="{'width': skill.progress + '%', 'background': skill.colors || '#007bff'}">
+                        <div class="progress-value">{{ skill.progress }}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2ème colonne -->
+        <div class="col-md-6">
+            <div *ngFor="let skill of dataSkills2">
+                <h3 class="progress-title">{{ skill.titre }}</h3>
+                <div class="progress">
+                    <div class="progress-bar" [ngStyle]="{'width': skill.progress + '%', 'background': skill.colors || '#007bff'}">
+                        <div class="progress-value">{{ skill.progress }}%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

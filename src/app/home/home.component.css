@@ -1,0 +1,87 @@
+.animated-text p .saut{
+    display: block;
+}
+.animated-text p {
+    z-index: 2; 
+    white-space: normal;;
+    overflow: hidden; ;
+    border-right: .15em solid #fd7e14; ;
+    animation: typing 2.5s steps(30, end);
+    width: 100%;
+    max-width: 100%; 
+    word-wrap: break-word;
+}
+
+.animated-text .clair{
+    color: white;
+}
+
+.animated-text .medium{
+    font-size: x-   large;
+}
+.animated-text .large{
+    font-size: xxx-large;
+}
+.animated-text span .accent{
+    color: #ffc107;
+}
+.animated-text div .first{
+    background-color: #ffc107;
+
+
+}
+.animated-text div .second{
+    border: 3px solid white ;
+    color: white;
+
+}
+
+.animated-text div a{
+    font-size: x-large;
+    border-radius: 15px 15px 15px 15px;
+    margin: 1%;
+    text-align: center;
+    
+
+}
+.animated-text div .a:hover{
+    background-color: #999999;
+    color: #000000;
+}
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%; 
+    }
+}
+
+
+.itsMe {
+    max-width: 70%; 
+    height: auto;
+    transition: transform 0.3s ease;
+    color: white;
+}
+@media (max-width: 768px) {
+    .itsMe {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto; 
+        max-width: 100%;
+        height: auto; 
+    }
+}
+
+.itsMe:hover {
+    transform: scale(1.05);
+}
+
+.shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}

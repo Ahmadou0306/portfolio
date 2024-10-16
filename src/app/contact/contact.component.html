@@ -1,0 +1,17 @@
+<div class="container contact">
+    <h1 class="text-center">Contactez<span>-</span>moi</h1>
+    <h2 class="text-center">
+        J'adore transformer des idées en réalité. <br>
+        Chaque projet est une nouvelle aventure...
+    </h2>
+    <div class="reseau row justify-content-center">
+        <div *ngFor="let information of informations" class="bubble-container">
+            <a [href]="information.valeur" [target]="information.taget" class="bubble-link">
+                <div class="bubble">
+                    <img [src]="'assets/icon/' + information.image" [alt]="information.titre">   
+                </div>
+                <div class="info">{{ information.titre }}</div>
+            </a>
+        </div>
+    </div>
+</div>
