@@ -26,6 +26,7 @@ import { SkillsComponent } from './skills/skills.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+
   title = 'Mon Portofolio';
   navItems = [
     { id: 'home', name: 'Accueil' },
@@ -36,6 +37,7 @@ export class AppComponent {
     { id: 'contact', name: 'Contact' }
   ];
   activeLink: string ;
+  
   constructor(
     @Inject(PLATFORM_ID) private platformId: Object
   ) {

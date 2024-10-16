@@ -57,7 +57,7 @@ export class ProjectsComponent {
       image:"assets/projects/mobilesport/mobilesport1.png",
     },
     {
-      titre:"titre1",
+      titre:"My Ticket",
       description:"Cette application mobile attribue des tickets électroniques aux utilisateurs après un paiement "+
       "ou un parrainage. Chaque ticket, enregistré dans l'application, peut être scanné pour vérifier son authenticité. "+
       "Il est également disponible en format PDF, permettant aux utilisateurs de l'imprimer en version physique s'ils "+

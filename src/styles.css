@@ -5,10 +5,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
-    background-position: center; 
-    /*    
-    background: #000000;
-    */
+    background-position: top right; 
+
+    
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
