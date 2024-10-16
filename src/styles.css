@@ -1,12 +1,18 @@
 body {
     padding-top: 70px; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("/assets/bg/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    /*    
     background: #000000;
+    */
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
     color: #999999;
-
 }
 html {
     scroll-behavior: smooth;
