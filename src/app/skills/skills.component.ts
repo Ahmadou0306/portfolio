@@ -23,19 +23,22 @@ export class SkillsComponent {
   ]
   devSkills2 =[
     {titre:"Javascript",progress:"75", colors:"#ffbe33"},
-    {titre:"Angular",progress:"70", colors:"#f6ff33"},
+    {titre:"Angular",progress:"70", colors:"#ffd633"},
+    {titre:"React",progress:"70", colors:"#f6ff33"},
     {titre:"Openstack / AWS",progress:"70", colors:"#ffe933"},
   ]
   
   dataSkills1 = [
     { titre: "Python", progress: "90", colors: "#3c33ff" },
     { titre: "SQL", progress: "85", colors: "#33e9ff" },
+    { titre: "Spark", progress: "75", colors: "#33e4ff" },
     { titre: "Statistiques", progress: "75", colors: "#33ffce" },
   ];
   dataSkills2 = [
     { titre: "Machine Learning", progress: "70", colors: "#33ff77" },
     { titre: "NoSQL", progress: "70", colors: "#33ff42" },
-    { titre: "Scala", progress: "65", colors: "#5bff33" },
+    { titre: "Scala", progress: "75", colors: "#5bff33" },
+    { titre: "Power BI", progress: "70", colors: "#5bff33" },
   ];
   setDevActive(value:boolean) {
     console.log('Dev active:', value);  // Vérification du changement de valeur
