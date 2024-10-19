@@ -54,7 +54,7 @@ export class ProjectsComponent {
       "sportifs, les sanctions des joueurs, et valident les équipes formées par les chefs d'équipe. Les community "+
       "managers tiennent les utilisateurs informés des dernières nouvelles sportives, tandis que les trésoriers "+
       "assurent la gestion des transactions et des finances liées aux événements.",
-      image:"assets/projects/mobilesport/mobilesport1.png",
+      image:"assets/projects/mobilesport/mobilesport.jpg",
     },
     {
       titre:"My Ticket",
@@ -62,13 +62,13 @@ export class ProjectsComponent {
       "ou un parrainage. Chaque ticket, enregistré dans l'application, peut être scanné pour vérifier son authenticité. "+
       "Il est également disponible en format PDF, permettant aux utilisateurs de l'imprimer en version physique s'ils "+
       "le souhaitent.",
-      image:"assets/projects/mobilesport/mobilesport1.png",
+      image:"assets/projects/ticket/ticket.jpg",
     },
     {
       titre:"Ah-METEO",
       description:"Cette application mobile se connecte à une API pour afficher en temps réel les prévisions "+
       "météorologiques au Sénégal, offrant ainsi aux utilisateurs des informations précises sur la météo locale.",
-      image:"assets/projects/meteo/meteo6.png",
+      image:"assets/projects/meteo/meteo.jpg",
     },
 
   ]
