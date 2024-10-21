@@ -2,24 +2,21 @@
     color: white; 
     font-size: large; 
     font-weight: bold; 
-
+    min-width: 150px; 
+    word-wrap: break-word;
   }
   
   .table-info td {
-    font-size: 1rem; 
-    padding-left: 10px; 
     color: #999999;
   }
   
   .table-info {
     border-collapse: collapse; 
-    animation: rotateIn 0.6s ease-in-out forwards; 
     background-color: transparent;
-    padding: 3%;
   }
   
   .table-info th, .table-info td {
-    padding: 8px; 
+    padding: 1%; 
   }
   
   .presentation h1{
